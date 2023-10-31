@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Greeting App</title>
+</head>
+<body>
+  <h1>Greeting App</h1>
+  <!-- Här kommer vi att lägga till formuläret och resultatet gör det i steg 2 -->
+  <div id="container">
+    <label for="name">Ditt namn:</label>
+    <input type="text" id="name" />
+    <br />
+
+    <label for="message">Välj ett meddelande:</label>
+    <select id="message">
+      <option value="Välkommen">Välkommen</option>
+      <option value="Hej">Hej</option>
+      <option value="God morgon">God morgon</option>
+    </select>
+    <br />
+
+    <button id="greetButton">Hälsa</button>
+    <br />
+
+    <div id="output"></div>
+  </div>
+
+<!-- Använd inte .ts filer här för JS kan endast läsas av webbläsaren -->
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-color: #000; /* Svart bakgrundsfärg */
+    color: #fff; /* Vit textfärg */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Ta bort standardmarginaler från kroppen */
+    padding: 0; /* Ta bort standardfyllning från kroppen */
+}
+
+h1 {
+    font-size: 24px; /* Större rubrikstext */
+    margin: 20px 0; /* Lägg till marginal över och under rubriken */
+}
+
+#container {
+    background-color: #333; /* Mörkgrå bakgrundsfärg för huvudbehållaren */
+    color: #fff; /* Vit textfärg inuti behållaren */
+    padding: 20px;
+    border-radius: 10px; /* Runda hörn på behållaren */
+    max-width: 400px; /* Begränsa behållarens bredd för att förhindra överflödigt innehåll */
+    margin: 0 auto; /* Centrera behållaren horisontellt */
+}
+
+label,
+select {
+    display: block; /* Placera etiketter och dropdown i egna rader */
+    margin-bottom: 10px; /* Lägg till mellanrum under etiketter och dropdown */
+}
+
+select {
+    width: 100%; /* Fyll hela bredden av förälderelementet (flexibel bredd) */
+    display: block; /* Placera dropdown i en egen remsa (blockelement) */
+    margin-top: 5px; /* Lägg till lite mellanrum ovanför dropdown */
+}
+
+button {
+    background: linear-gradient(
+        to bottom,
+        #4caf50,
+        #45a049,
+        #39843d,
+        #2d6c31
+    ); /* Linjär gradient i gröna nyanser */
+    color: #fff; /* Vit textfärg på knappen */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Lägg till mellanrum ovanför knappen */
+    border-radius: 5px; /* Runda knappens hörn */
+    transition: background 0.3s; /* Smidig övergång för knappens bakgrund */
+}
+
+button:hover {
+    background: linear-gradient(
+        to bottom,
+        #0056b3,
+        #007bff
+    ); /* Ändra gradient när musen sveper över knappen */
+}
